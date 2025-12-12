@@ -28,7 +28,7 @@ Other Tools: Git, Postman, Visual Studio Code
 
 📥 Installation
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/nutriscan.git
+git clone https://github.com/shivansh123-ai/nutriscan.git
 cd nutriscan
 
 2️⃣ Install Dependencies
