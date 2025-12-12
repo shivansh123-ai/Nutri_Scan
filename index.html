@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbyt Food - AI Nutrition Intelligence</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              dark: {
+                950: '#050507',
+                900: '#0B0C10',
+                800: '#15171E',
+                700: '#1E232F',
+                border: '#2A2F3A',
+              },
+              brand: {
+                cyan: '#66FCF1',
+                purple: '#C56CFF',
+                blue: '#45A29E',
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+      body { background-color: #050507; color: #E2E8F0; }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+    </style>
+
+    <!-- Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "axios": "https://esm.sh/axios@1.6.2",
+        "recharts": "https://esm.sh/recharts@2.12.0",
+        "framer-motion": "https://esm.sh/framer-motion@11.0.3",
+        "lucide-react": "https://esm.sh/lucide-react@0.330.0",
+        "clsx": "https://esm.sh/clsx@2.1.0",
+        "tailwind-merge": "https://esm.sh/tailwind-merge@2.2.1"
+      }
+    }
+    </script>
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
